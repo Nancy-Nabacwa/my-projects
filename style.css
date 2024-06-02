@@ -244,6 +244,12 @@ body{
 .task input:checked~.checkmark{
     background-color: #2e2e2e;
 }
+.no-task{
+    margin-top:80px;
+    text-align: center;
+    font-size:24px;
+    opacity: 0.6;
+}
 .task input:checked~.checkmark svg{
     opacity: 1;
     color:#fff;
@@ -346,6 +352,7 @@ background-color:rgba(0, 0, 0, 0.1) ;
     align-items: center;
 }
 .btns button{
+    z-index: 2;
     padding: 10px 20px;
     border-radius: 5px;
     border:none;
